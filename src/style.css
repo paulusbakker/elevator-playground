@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.elevator {
+    height: 130px;
+    width: 130px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.elevator.moving {
+    background-color: red;
+}
+
+.elevator.open {
+    background-color: green;
+}
+
+.elevator.closed {
+    background-color: red;
+}
+
+.elevator.opening {
+    background-color: orange;
+}
+
+.elevator.closing {
+    background-color: orange;
+}
+
+.keypadItem {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    color: yellow;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.callButton {
+    height: 50px;
+    width: 50px;
+}
+
+.floor {
+    display: flex;
+    align-items: flex-end;
+}
